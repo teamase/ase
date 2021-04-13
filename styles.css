@@ -3,6 +3,10 @@ h1{
     font-family: 'Rubik', sans-serif;
 }
 
+h2{
+    font-family: 'Open Sans', sans-serif;
+}
+
 p {
     font-family: 'Rubik', sans-serif;
 }
@@ -27,6 +31,8 @@ a{
 .replaytable{
     align-self: center;
 }
+
+.tr:nth-child(even){background-color: #f2f2f2;}
 
 .image-padding{
     padding-left: 20px;
