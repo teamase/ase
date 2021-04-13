@@ -1,5 +1,10 @@
 h1{
     text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
 }
 
 body{
@@ -25,4 +30,11 @@ a{
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
+}
+
+.text-padding{
+    padding: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
 }
