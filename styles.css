@@ -1,3 +1,7 @@
+h1{
+    text-align: center;
+}
+
 body{
     background-color: #242424;
     color: #ffffff;
@@ -8,11 +12,17 @@ a{
     color:#eb4034;
 }
 
-/*.replaytable{
-    background-color: beige;
+.center-body{
+    color: #ffffff;
+    text-align: center;
 }
 
-/* body{
-    background-color: #f1f1f1;
-    color: #202020; 
+/* Replay table customize */ 
+
+.image-padding{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
 }
