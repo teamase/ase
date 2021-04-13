@@ -8,17 +8,17 @@ p {
 }
 
 body{
-    background-color: #242424;
-    color: #ffffff;
+    background-color: white;
+    color: #202020;
 }
 
 a{
     text-decoration: none;
-    color:#eb4034;
+    color:#a80b00;
 }
 
 .center-body{
-    color: #ffffff;
+    color: #202020;
     text-align: center;
 }
 
@@ -38,3 +38,22 @@ a{
     padding-bottom: 0px;
     padding-left: 0px;
 }
+
+/* Dark Mode
+
+body{
+    background-color: #242424;
+    color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+    color:#eb4034;
+}
+
+.center-body{
+    color: #ffffff;
+    text-align: center;
+}
+
+*/
