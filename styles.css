@@ -7,6 +7,16 @@ h2{
     font-family: 'Open Sans', sans-serif;
 }
 
+h5{
+    font-size: small;
+    font-weight: 400;
+}
+
+.smalltable{
+    font-size: small;
+    font-weight: 400;
+}
+
 p {
     font-family: 'Rubik', sans-serif;
 }
