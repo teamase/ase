@@ -24,6 +24,10 @@ a{
 
 /* Replay table customize */ 
 
+.replaytable{
+    align-self: center;
+}
+
 .image-padding{
     padding-left: 20px;
     padding-right: 20px;
@@ -33,7 +37,14 @@ a{
 }
 
 .text-padding{
-    padding: 100px;
+    padding: 150px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.text-padding-goal{
+    padding: 250px;
     padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
