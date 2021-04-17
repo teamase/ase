@@ -23,23 +23,33 @@ p {
 
 body{
     background-color: white;
-    color: #202020;
+    color: #ff9966;
+    text-align: center;
 }
 
 a{
-    text-decoration: none;
-    color:#a80b00;
+    text-decoration: none; /*
+    color:#a80b00; */
+    color:#ee224a;
+    font-weight: 500;
+    text-align: left;
 }
 
 .center-body{
-    color: #202020;
-    text-align: center;
+    color: #ee224a;
 }
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 /* Replay table customize */ 
 
 .replaytable{
-    align-self: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .tr:nth-child(even){background-color: #f2f2f2;}
@@ -83,16 +93,27 @@ a{
     background-color: #111;
     overflow-x: hidden;
     padding-top: 20px;
+    text-align: left;
   }
   
-  .sidenav a {
+.sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
-  }
-  .container { position:relative; padding:0px; top:0px; right: 0; left: 180px; height: 1200px;}
+}
+
+.container { 
+    position:relative; 
+    padding:0px; 
+    top:0px; 
+    right: 0; 
+    left: 180px; 
+    height: 1200px;
+    background-color: #202020;
+}
+
   #sidebar {
       position:relative;
       top:0; bottom:0; left:0;
