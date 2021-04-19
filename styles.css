@@ -1,10 +1,32 @@
 h1{
     text-align: center;
     font-family: 'Rubik', sans-serif;
+    color: #ff9966;
 }
 
 h2{
     font-family: 'Open Sans', sans-serif;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    color: #eeeeee;
+    padding: 300px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+
+h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    color: #eeeeee;
+    padding: 300px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
 }
 
 h5{
@@ -21,6 +43,7 @@ h5{
 p {
     font-family: 'Rubik', sans-serif;
     margin-bottom: -15px;
+    color: #ff9966;
 }
 
 body{
@@ -38,7 +61,7 @@ a{
 }
 
 .center-body{
-    color: #ee224a;
+    color: #ff9966;
 }
 
 .center {
