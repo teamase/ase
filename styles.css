@@ -60,6 +60,11 @@ a{
     text-align: left;
 }
 
+.highlighted-text{
+    color:#ee224a;
+    
+}
+
 .center-body{
     color: #ff9966;
 }
