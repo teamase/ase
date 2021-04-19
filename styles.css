@@ -10,6 +10,7 @@ h2{
 h5{
     font-size: small;
     font-weight: 400;
+    
 }
 
 .smalltable{
@@ -19,6 +20,7 @@ h5{
 
 p {
     font-family: 'Rubik', sans-serif;
+    margin-bottom: -15px;
 }
 
 body{
