@@ -31,8 +31,9 @@ h4{
 
 h5{
     font-size: small;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    
+    color:#cccccc;
 }
 
 .smalltable{
@@ -151,6 +152,13 @@ a{
       height: 1000px;
       background: gray;
   }
+
+.footer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
 /* Dark Mode
 
 body{
