@@ -62,8 +62,12 @@ a{
 }
 
 .highlighted-text{
-    color:#ee224a;
-    
+    color:#ee224a;   
+}
+
+.white-text{
+    color: #cccccc;
+    padding: 20px;
 }
 
 .center-body{
@@ -82,8 +86,6 @@ a{
     margin-left: auto;
     margin-right: auto;
 }
-
-.tr:nth-child(even){background-color: #f2f2f2;}
 
 .image-padding{
     padding-left: 20px;
