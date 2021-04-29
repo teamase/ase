@@ -43,7 +43,6 @@ h5{
 
 p {
     font-family: 'Rubik', sans-serif;
-    margin-bottom: -15px;
     color: #ff9966;
 }
 
@@ -80,6 +79,10 @@ a{
   }
 
 /* Replay table customize */ 
+
+.lower-text{
+    margin-bottom: -15px;
+}
 
 .replaytable{
     text-align: center;
