@@ -183,3 +183,24 @@ a{
 }
 
 */
+
+/* Trying to do shit with a new page hopefully it works i know it wont */
+
+@import url("http://fonts.googleapis.com/css?family=Rubik:400,700,800");
+
+.text-1 {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 24px;
+    white-space: nowrap;
+}
+
+.overlag-group2 {
+    border-radius: 12px 0px 0px 12px;
+    min-width: 205px;
+    padding: 19px 29px;
+}
+
+.air-gallet rubik-bold-white-20px {
+
+}
