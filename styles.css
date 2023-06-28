@@ -186,7 +186,43 @@ a{
 
 /* Trying to do shit with a new page hopefully it works i know it wont */
 
-@import url("http://fonts.googleapis.com/css?family=Rubik:400,700,800");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:400,700,800");
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700;800&display=swap');
+
+:root {
+    --black: rgba(0, 0, 0, 1);
+    --eerie-black: rgba(32, 32, 32 ,1);
+    --abbey: rgba(78, 78, 78, 1);
+    --white: rgba(255, 255, 255, 1);
+
+    --font-size-s: 12px;
+    --font-size-m: 20px;
+    --font-size-l: 40px;
+
+    --font-family-rubik: "Rubik";
+}
+
+.title {
+    align-self: center;
+    color:#ff9966;
+    font-family: 'Rubik', sans-serif;
+    font-size: var(--font-size-l);
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 52px;
+    text-align: center;
+    width: 556px;
+}
+
+.rubik-bold-white-20px {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+}
 
 .text-1 {
     letter-spacing: 0;
@@ -195,12 +231,74 @@ a{
     white-space: nowrap;
 }
 
-.overlag-group2 {
+.overlap-group-container {
+    align-items: flex-start;
+    display: flex;
+    min-width: 543px;
+}
+
+.overlap {
+    align-items: flex-start;
+    background-color: var(--eerie-black);
+    border: 1px solid;
+    border-color: var(--abbey);
+    display: flex;
+    height: 66px;
+}
+
+.overlap-group2 {
     border-radius: 12px 0px 0px 12px;
     min-width: 205px;
     padding: 19px 29px;
 }
 
-.air-gallet rubik-bold-white-20px {
+.air-gallet {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 24px;
+    white-space: nowrap;
+    text-align: center;
+}
 
+.center-text {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.price {
+    color: var(--white);
+    font-family: var(--font-rubik-family);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 14px;
+    white-space: nowrap;
+}
+
+
+/* more stuff heeeeeeelp */
+
+/* .score-group {
+    align-items: flex-start;
+    align-self: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.score-group{
+    border: 1px solid #ABADB3;
+    /* border-color: rgba(78, 78, 78, 1); */
+    border-radius: 12px 0px 0px 12px;
+}
+
+
+.sg-date{
+    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
 }
